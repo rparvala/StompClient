@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/ShengHuaWu"
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Thinktiv/StompClient.git", :tag => s.version.to_s }
-  s.source_files  = "StompClient/*.swift"
+  s.source_files  = "Sources/StompClient/*.swift"
   s.requires_arc     = true
   s.dependency "Starscream", "~> 3.0.0"
 
