@@ -36,7 +36,7 @@ public final class StompClient {
     
     // MARK: - Convenience Initializer
     public convenience init(url: URL) {
-        let socket = WebSocket(url: url)
+        let socket = WebSocket(url: url.appendServerIdAndSessionId())
         self.init(socket: socket)
     }
     
